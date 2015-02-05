@@ -80,7 +80,7 @@ angular.module('starter').controller('MapController',
         $scope.map = {
         		
         		layer: {
-                    tileLayer: 'http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}.{format}?access_token=<pk.eyJ1Ijoia29jbGlmZSIsImEiOiJYcDhhc3I0In0.eXVQLUntnP9yHu8q3pMDHQ>'
+                    tileLayer: 'http://api.tiles.mapbox.com/v4/{mapid}/{z}/{x}/{y}'
                 }, 
                 markers : {},
             	center: {},  
